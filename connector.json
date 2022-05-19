@@ -1,0 +1,106 @@
+{
+  "images": [
+    "iconWithBackground",
+    "logoWithoutBackground",
+    "logoWithBackground",
+    "iconWithoutBackground"
+  ],
+  "name": "apidemo1",
+  "connectorType": "apiAction",
+  "type": "none",
+  "authCodeText": "",
+  "userName": "",
+  "password": "",
+  "apiKey": "",
+  "clientKey": "",
+  "clientSecret": "",
+  "userId": null,
+  "customAccountFields": [
+    {
+      "label": null,
+      "value": null,
+      "type": null
+    }
+  ],
+  "domoClientId": "test",
+  "domoClientSecret": "test1234",
+  "authorizationURL": null,
+  "accessTokenURL": null,
+  "scope": null,
+  "additionalParameters": null,
+  "oauthUserName": null,
+  "oauthPassword": null,
+  "additionalInfo": "",
+  "reportLength": 1,
+  "days": 7,
+  "processData": "DOMO.log('hi')",
+  "reports": [
+    "report1"
+  ],
+  "advancedReports": null,
+  "guid": "6f530d67-811f-4ce4-a5e5-5ae0a2751ec3",
+  "authorName": "testss",
+  "accesstokenMethod": null,
+  "tokenAddlParams": null,
+  "publishPrivate": true,
+  "visibilityType": {
+    "label": null,
+    "value": "public"
+  },
+  "parameters": [
+    {
+      "name": "queriedDatasetId",
+      "type": "string",
+      "required": true,
+      "order": null,
+      "options": null,
+      "command": null,
+      "helpText": "The ID of the dataset in Domo you want to export data from",
+      "showWhen": null,
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:466"
+    },
+    {
+      "name": "test",
+      "type": "string",
+      "required": false,
+      "order": 0,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:467"
+    }
+  ],
+  "commands": null,
+  "showAdvanced": true,
+  "submittedVersion": 0,
+  "submittedMajorVersion": 0,
+  "publishedVersion": 0,
+  "workbenchEnabled": false,
+  "dataProviderCreated": false,
+  "description": null,
+  "tags": null,
+  "successResponseDefinition": null,
+  "errorResponseDefinition": null,
+  "updateCode": false,
+  "requestingCustomerId": null,
+  "ownerId": null,
+  "ownerCustomerId": null,
+  "parentGuid": null,
+  "testingProfiles": null,
+  "pacerLimits": null,
+  "enableForAppstore": false,
+  "testingValue": null,
+  "libraries": null,
+  "visible": true,
+  "validImages": [
+    "iconWithBackground",
+    "logoWithBackground",
+    "iconWithoutBackground",
+    "logoWithoutBackground"
+  ]
+}
